@@ -1,0 +1,7 @@
+token: "1234512345"
+repositories:
+  - "VLZH/course-python-basics"
+
+file_extensions:
+  - ".mdx"
+  - ".md"

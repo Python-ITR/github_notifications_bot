@@ -1,0 +1,6 @@
+repositories:
+  - "VLZH/course-python-basics"
+
+file_extensions:
+  - ".mdx"
+  - ".md"
