@@ -1,9 +1,12 @@
+from typing import List
 from github import Commit
-from changes import ChangeItem
+from .changes import ChangeItem
 
 
 class ChangesCommitExtractor:
-    def __init__(self, commit: Commit):
+    changes: List[ChangeItem]
+    
+    def __init__(self, commit: Commit.Commit):
         self.commit = commit
         self.changes = []
 

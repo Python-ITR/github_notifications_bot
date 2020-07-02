@@ -1,3 +1,6 @@
+.vscode
 .pyenv
 .petest_cache
 __pycache__
+.mypy_cache
+/tests/connections/*.sqlite

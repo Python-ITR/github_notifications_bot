@@ -12,6 +12,11 @@ pyyaml = "^5.3.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.3"
+pylint = "^2.5.3"
+mypy = "^0.782"
+black = {version = "^19.10b0", allow-prereleases = true}
+faker = "^4.1.1"
+rope = "^0.17.0"
 
 [tool.pytest.ini_options]
 testpaths = [

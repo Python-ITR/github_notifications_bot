@@ -1,6 +1,6 @@
 from github import Github
 from config import Config
-from runner import Runner
+from runners import Runner
 
 
 def main():

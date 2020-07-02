@@ -5,7 +5,9 @@ from typing import List, Optional
 YAML_PATH = "./config.yml"
 
 
-def parse_repositories_string(s: str) -> List[str]:
+def parse_repositories_string(s: Optional[str]) -> List[str]:
+    if not s:
+        return []
     return list(map(lambda s: s.strip(), s.split(",")))
 
 

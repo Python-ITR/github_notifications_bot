@@ -1,1 +1,2 @@
-from .ChangesCommitExtractor import ChangesCommitExtractor
+from .extractors import ChangesCommitExtractor
+from .changes import ChangeItem

@@ -1,0 +1,5 @@
+pre-commit:
+  parallel: true
+  commands:
+    pytest:
+      run: ./.pyenv/bin/python -m pytest
